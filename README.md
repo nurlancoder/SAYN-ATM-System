@@ -1,39 +1,36 @@
-SAYN ATM System v2.0 💳🏦
+# SAYN ATM System v2.0 💳🏦
+**SAYN ATM System — Advanced Electronic Banking System** (elektron bankçılıq sistemi) C dilində yazılmışdır.  
+Sistem həm **Windows**, həm də **Linux/macOS** əməliyyat sistemlərində işləyir və real **ATM funksiyalarını simulyasiya edir**.
 
-SAYN ATM System — Advanced Electronic Banking System (elektron bankçılıq sistemi) C dilində yazılmışdır.
-Sistem həm Windows, həm də Linux əməliyyat sistemlərində işləyir və real ATM funksiyalarını simulyasiya edir.
+---
 
-✨ Xüsusiyyətlər
+## ✨ Xüsusiyyətlər
+- ✅ Çoxdilli dəstək (Azərbaycan / İngilis)  
+- ✅ Cross-platform uyğunluq (Windows / Linux)  
+- ✅ Təhlükəsizlik protokolları (PIN yoxlaması, cəhd limiti)  
+- ✅ Əməliyyat tarixçəsi sistemi  
+- ✅ Gündəlik çıxarış limiti  
+- ✅ PIN dəyişmə funksiyası  
+- ✅ Rəngli terminal interfeysi  
+- ✅ Input validation & error handling  
 
-✅ Çoxdilli dəstək (Azərbaycan / İngilis)
+---
 
-✅ Cross-platform uyğunluq (Windows/Linux)
+## 📂 Layihə Strukturu
+├── atm.c # Əsas proqram faylı
+├── README.md # Layihə haqqında məlumat
+└── LICENSE # MIT lisenziyası
 
-✅ Təhlükəsizlik protokolları (PIN yoxlaması, cəhd limiti)
 
-✅ Əməliyyat tarixçəsi sistemi
+---
 
-✅ Gündəlik çıxarış limiti
+## ⚙️ Qurulum və İşlətmə
 
-✅ PIN dəyişmə funksiyası
-
-✅ Rəngli terminal interfeysi
-
-✅ Input validation & error handling
-
-📂 Layihə Strukturu
-├── atm.c              # Əsas proqram faylı
-├── README.md          # Layihə haqqında məlumat
-└── LICENSE            # MIT lisenziyası
-
-⚙️ Qurulum və İşlətmə
-🔹 Windows
-
-gcc və ya MinGW quraşdır (əgər yoxdursa).
-
-Kodu kompilyasiya et:
-
-gcc atm.c -o atm.exe
+### 🔹 Windows
+1. [MinGW](http://mingw-w64.org) və ya GCC quraşdır.  
+2. Kodu kompilyasiya et:
+   ```bash
+   gcc atm.c -o atm.exe
 
 
 Proqramı işə sal:
@@ -86,9 +83,8 @@ Daha ətraflı: LICENSE
 👨‍💻 Developer Info
 
 Developer: M.Nurlan
+📧 Email: nurlanmammadli2@gmail.com
 
-Email: nurlanmammadli2@gmail.com
+🔗 LinkedIn: linkedin.com/in/nurlan-məmmədli-b6a55b308
 
-LinkedIn: linkedin.com/in/nurlan-məmmədli-b6a55b308
-
-Location: Sumqayıt, Azərbaycan
+📍 Location: Sumqayıt, Azərbaycan
